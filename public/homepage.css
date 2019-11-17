@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  font-size: 10px;
+  font-family: Lucida Grande;
+  background-color: rgb(233, 235, 238);
+}
+header {
+  width: 100%;
+  float: left;
+}
+.leftHeader {
+  width: 50%;
+  border: 0px solid black;
+  float: left;
+  background-color: maroon;
+  padding-bottom: 0.4%;
+}
+.leftHeader h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+  margin: 0;
+  color: white;
+}
+.rightHeader {
+  width: 50%;
+  border: 0px solid black;
+  float: left;
+  background-color: maroon;
+  padding-bottom: 1.4%;
+}
+.rightHeader form {
+  padding-left: 20%;
+  padding-top: 3%;
+}
+.rightHeader form label{
+  font-size: 0.9rem;
+  color: white;
+}
+.form-group {
+  float: left;
+  padding-left: 2%;
+}
+.click {
+  background-color: darkblue;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.main {
+  width: 100%;
+  border: 0px solid black;
+  background-color: rgb(233, 235, 238);
+}
+.leftSec {
+  width: 50%;
+  float:left;
+  border: 0px solid black;
+}
+.connect {
+  width: 100%;
+  float: left;
+  border: 0px solid black;
+}
+.connect h2 {
+  padding-top: 20px;
+  padding-left: 145px;
+  font-size: 40px;
+  font-family: Lucida Grande;
+}
+.newspaper {
+  width: 100%;
+  float: left;
+  padding-bottom: 8%;
+  border: 0px solid black;
+}
+.fa-newspaper:before {
+  content: "\f1ea";
+  font-size: 50px;
+  padding-left: 109px;
+}
+.newspaper p,span {
+  text-align: center;
+  font-size: 18px;
+  margin: 0px;
+  margin-right: -170px;
+  margin-top: -34px;
+  font-family: Lucida Grande;
+}
+.newspaper span {
+  font-weight: bold;
+  font-family: Lucida Grande;
+}
+.share {
+  width: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.share p {
+  float: right;
+  padding-right: 113px;
+  font-family: Lucida Grande;
+}
+.share span {
+  font-weight: bold;
+  font-family: Lucida Grande;
+}
+.fa-laptop-code:before {
+  content: "\f5fc";
+  font-size: 46px;
+  padding-left: 109px;
+}
+.find {
+  width: 100%;
+  border: 0px solid black;
+  float: left;
+}
+.find p,span {
+  text-align: center;
+  font: 20px;
+  margin: 0px;
+  font-family: Lucida Grande;
+}
+.find span {
+  font-weight: bold;
+  font-family: Lucida Grande;
+}
+.fa-share-alt:before {
+  content: "\f1e0";
+  font-size: 40px;
+  padding-left: 110px;
+}
+.find p {
+  float: right;
+  margin-right: 6px;
+  margin-top: 10px;
+  font-family: Lucida Grande;
+}
+.rightSec {
+  width: 50%;
+  float: left;
+  border: 0px solid black;
+}
+.signUp {
+  width: 100%;
+  float: left;
+  border: 0px solid black;
+}
+.signUp h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  padding-left: 27%;
+}
+.signUp p {
+  margin-top: 2%;
+  font-size: 1rem;
+  color: gray;
+  padding-left: 27%;
+}
+.signUp a{
+  text-decoration: none;
+}
